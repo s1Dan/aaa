@@ -1,0 +1,37 @@
+{
+  "name": "Vetyk",
+  "homepage": "https://github.com/s1Dan/abc",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "axios": "^1.1.2",
+    "lodash.throttle": "^4.1.1",
+    "pinia": "^2.0.23",
+    "vue": "^3.2.40"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.1.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.25.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-import-resolver-typescript": "^3.5.1",
+    "eslint-plugin-babel": "^5.3.1",
+    "eslint-plugin-cypress": "^2.12.1",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-vue": "^9.6.0",
+    "gh-pages": "^4.0.0",
+    "sass": "^1.55.0",
+    "vite": "^3.1.7",
+    "vite-plugin-pwa": "^0.13.1"
+  }
+}
